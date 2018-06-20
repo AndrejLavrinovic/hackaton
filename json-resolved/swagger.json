@@ -13,8 +13,8 @@
       "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host" : "petstore.swagger.io",
-  "basePath" : "/v2",
+  "host" : "dev-virtserver.swaggerhub.com",
+  "basePath" : "/HACKATON-2018/api-hackaton-1/1.0.0",
   "tags" : [ {
     "name" : "pet",
     "description" : "Everything about your Pets",
@@ -33,7 +33,7 @@
       "url" : "http://swagger.io"
     }
   } ],
-  "schemes" : [ "http" ],
+  "schemes" : [ "https", "http" ],
   "paths" : {
     "/pet" : {
       "post" : {
